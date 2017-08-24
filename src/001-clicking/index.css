@@ -1,0 +1,40 @@
+.center-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  transition: background-color 0.1s;
+  user-select: none;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.center p {
+  transition: color 0.1s;
+  font-size: 100px;
+}
+
+@keyframes shake {
+  0% {
+    top: -2px;
+    left: 2px;
+  }
+  25% {
+    left: -2px;
+  }
+  50% {
+    top: 2px
+  }
+  100% {
+    top: -2px;
+    left: 2px;
+  }
+}
+
+.shake {
+  position: relative;
+  animation-name: shake;
+  animation-duration: 0.1s;
+}

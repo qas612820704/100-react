@@ -11,7 +11,7 @@ import Clicking from './001-clicking'
 
 const App = () => (
   <Router>
-    <div>
+    <div id="router-root">
       <Route exact path="/" component={Home} />
       <Route path="/001/" component={Clicking} />
     </div>
