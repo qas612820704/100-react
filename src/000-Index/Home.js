@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Paper from 'react-md/lib/Papers'
 import List from 'react-md/lib/Lists/List'
 import ListItem from 'react-md/lib/Lists/ListItem'
 
@@ -12,6 +11,12 @@ const Home = () => (
           <Link to={`/001/`}>001 Clicking</Link>
         }
       />
+      <ListItem
+        primaryText={
+          <Link to={`/002/`}>002 Tic Toc Toe</Link>
+        }
+      />
+
     </List>
   </div>
 )

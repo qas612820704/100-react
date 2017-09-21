@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
 import Button from 'react-md/lib/Buttons/Button'
 import autobind from 'react-autobind'
 
@@ -64,6 +63,7 @@ export default class Clicking extends Component {
     const { count } = this.state
     return (
       <div
+        id="clicking"
         ref={(r) => {this.container = r}}
         className="center-container"
         onClick={this.handleClick}

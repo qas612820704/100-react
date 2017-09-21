@@ -1,16 +1,6 @@
-.center-container {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  transition: background-color 0.1s;
+#clicking {
   user-select: none;
 }
-
-.center {
-  margin: auto;
-  text-align: center;
-}
-
 .center p {
   transition: color 0.1s;
   font-size: 100px;
